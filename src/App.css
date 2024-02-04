@@ -1,0 +1,38 @@
+#container{
+  display: flex;
+  justify-content: center;
+  background:linear-gradient(blue,black);
+  height: 100vh;
+}
+
+#container_start_game{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container_start_game h1{
+  font-size: 3.6vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container_start_game p{
+  font-size: 1.8vw;
+}
+
+#container_start_game button{
+  font-size: 1.8vw;
+  background-color:#4848e7 ;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  border-color: white;
+  cursor:pointer;
+}
+
+
+#container_start_game button:hover{
+  background-color:#333392 ;
+}

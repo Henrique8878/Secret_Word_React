@@ -1,0 +1,18 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.box_letter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid black;
+  margin: 0vw 0.15vw;
+  width: 5vw;
+  height: 5vw;
+  text-align: center;
+  font-size: 4vw;
+}
+
